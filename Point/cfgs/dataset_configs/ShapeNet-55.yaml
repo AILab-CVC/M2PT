@@ -1,0 +1,4 @@
+NAME: ShapeNet
+DATA_PATH: ../3d_dataset/shapenet55/ShapeNet55-34/ShapeNet-55
+N_POINTS: 8192
+PC_PATH: ../3d_dataset/shapenet55/ShapeNet55-34/shapenet_pc
