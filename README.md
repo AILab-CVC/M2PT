@@ -1,4 +1,4 @@
-<h1 class="title">Improve Transformers with Irrelevant Data from Other Modalities</h1>
+<h1 class="title">Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities</h1>
 
 <p align="center" width="100%">
 <img src="assets/banner.png"  width="100%" height="100%">
@@ -81,7 +81,7 @@ We propose to improve transformers of a specific modality with irrelevant data f
       <h2 class="title">BibTeX</h2>
       If you find our work useful, please kindly cite:
       <pre><code>@article{zhang2023improve,
-      title={Improve Transformers with Irrelevant Data from Other Modalities},
+      title={Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities},
       author={Zhang, Yiyuan and Ding, Xiaohan and Gong, Kaixiong and Ge, Yixiao and Shan, Ying and Yue, Xiangyu},
       journal={arXiv preprint arXiv:2311.xxxxx},
       year={2023}
