@@ -34,7 +34,7 @@
 
 -----------------
 
-### Inspiation of Multimodal Pathway
+### Inspiration of Multimodal Pathway
 This diagram's composition is inspired by a figure in Jeff Dean's blog post, where he envisions "pathways" as a high-level concept for general AI models. Our proposed Multimodal Pathway Transformer is a novel approach, and we are delighted to discover that some of its effects align with Jeff Dean's high-level vision, such as training a single model to *do many things, enabling multiple senses, and making models sparse and efficient*. Multimodal Pathway Transformer can be seen as an initial exploration of this "pathways" concept in the context of basic Transformer models and multimodal learning. Read more about Jeff Dean's concept in <a href="https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/" target="_blank">his blog post</a>.
 
 ### Abstract
