@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-526XZTX2C6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-526XZTX2C6');
+  </script>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities</title>
+  <link rel="icon" type="image/x-icon" href="static/images/cuhk.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://invictus717.github.io/" target="_blank">Yiyuan Zhang</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://dingxiaohan.xyz/" target="_blank">Xiaohan Ding</a><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://kxgong.github.io/" target="_blank">Kaixiong Gong</a><sup>1</sup>,</span>
+                </br>
+                  <span class="author-block">
+                  </span>
+                    <a href="https://geyixiao.com/" target="_blank">Yixiao Ge</a><sup>2</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en&oi=ao" target="_blank">Ying Shan</a><sup>2</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="http://people.eecs.berkeley.edu/~xyyue/" target="_blank">Xiangyu Yue</a><sup>1</sup>
+                  </span>
+            </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Multimedia Lab, The Chinese University of Hong Kong   
+                      <br> <sup>2</sup>Tencent AI Lab</span>
+                  </div>
+                  
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                    <!-- ArXiv abstract Link -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/invictus717/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+<video poster="" id="tree" autoplay controls muted loop height="100%">
+
+  <source src="static/videos/banner_video.mp4"
+  type="video/mp4">
+</video>
+-->
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img  src="static/images/banner.png" alt="Teaser"/>
+      <h2 class="subtitle has-text-centered">
+        <span></span> Multimodal Pathway: We can introduce data from one modality to widely enhance understaning of other modalities. Meanwhile, these modalities can mutually boost one another in this framework. 
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+
+<!-- Paper abstract -->
+<section class="section hero ">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Inspiration of Multimodal Pathway</h2>
+        <div class="content has-text-justified">
+          <p>
+            This diagram's composition is inspired by a figure in Jeff Dean's blog post, where he envisions "pathways" as a high-level concept for general AI models. Our proposed Multimodal Pathway Transformer is a novel approach, and we are delighted to discover that some of its effects align with Jeff Dean's high-level vision, such as training a single model to *do many things, enabling multiple senses, and making models sparse and efficient*. Multimodal Pathway Transformer can be seen as an initial exploration of this "pathways" concept in the context of basic Transformer models and multimodal learning. Read more about Jeff Dean's concept in <a href="https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/" target="_blank">his blog post</a>.
+          </p>
+        </div>
+
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose to improve transformers of a specific modality with irrelevant data from other modalities, e.g., improve an ImageNet model with audio or point cloud datasets. We would like to highlight that the data samples of the target modality are irrelevant to the other modalities, which distinguishes our method from other works utilizing paired (e.g., CLIP) or interleaved data of different modalities. We propose a methodology named Multimodal Pathway: given a target modality and a transformer designed for it, we use an auxiliary transformer trained with data of another modality and construct pathways to connect components of the two models so that data of the target modality can be processed by both models. In this way, we utilize the universal sequence-to-sequence modeling abilities of transformers obtained from two modalities. As a concrete implementation, we use a modality-specific tokenizer and task-specific head as usual but utilize the transformer blocks of the auxiliary model via a proposed method named Cross-Modal Re-parameterization, which exploits the auxiliary weights without any inference costs. We observe significant and consistent performance improvements with irrelevant data of image, point cloud, video, and audio. For example, on ImageNet-1K, a point-cloud-trained auxiliary transformer can improve an MAE-pretrained ViT by 0.6% and a ViT trained from scratch by 5.4%.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<div class="columns is-centered has-text-centered">
+  <HR align=center style="border:3 double #000000" width="80%" SIZE=5>
+</div>
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column ">
+        <h2 class="title is-3">Demo of Multimodal Pathway </h2>
+        <p>* We leverage the <a href="https://www.youtube.com/watch?v=Nf-d9CcEZ2w&t=1s&ab_channel=Google" target="_blank">Demo Video</a> 
+          of <a href="https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/" target="_blank">Google Pathways</a> 
+          for better understanding.</p>
+          <br>
+        <div class="center-div">
+          <img width="750px" src="static/images/pathway.gif" alt="MY ALT TEXT"/>
+        </div>   
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="columns is-centered has-text-centered">
+  <HR align=center style="border:3 double #000000" width="80%" SIZE=5>
+</div>
+
+
+<!-- Video end
+<div class="center-div">
+</div>
+<br>
+<table align="center" width="600px">
+  <tbody>
+      <tr>
+          <td>
+              <div class="center-div">
+                <iframe width="750px" height="415" src="https://www.youtube.com/embed/V8L8xbsTyls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>               
+          </td>
+      </tr>
+      <tr>
+  </tbody>
+</table> -->
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method: Multimodal Pathway</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/framework.png" alt="MY ALT TEXT"/>
+          <p>
+            (Left) The framework of Multimodal Pathway Transformer (M2PT). We take point cloud
+and image as the two representative modalities. Common practices with transformers follow the
+same pipeline: using 1) tokenizers to convert the input data to sequences, 2) transformer blocks
+to process the sequences, and 3) heads to decode the sequences. We upgrade the sequence-tosequence
+modeling by establishing pathways between the components of different modalities so
+that processing the tokens of a specific modality can utilize the transformer blocks trained with
+another modality. (Middle) Our design of M2PT, where the pathways are implemented by letting
+a linear layer (including the Query/Key/Value/projection layers in the attention block and those in
+the FFN block) in the target model cooperate with its counterpart in the auxiliary model. (Right)
+Cross-Modal Re-parameterization efficiently realizes M2PT by re-parameterizing the weights of the
+target model with those of the auxiliary model, which introduces completely no inference costs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="columns is-centered has-text-centered">
+  <HR align=center style="border:3 double #000000" width="80%" SIZE=5>
+</div>
+
+
+<!-- Result -->
+<!-- <section class="section hero is-light"> -->
+<section class="hero section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-12">
+        <h2 class="title is-3">Experiment</h2>
+        <div class="content has-text-justified">
+          <p>
+            We conduct experiments across the image, video, point cloud, and audio modalities. 
+            It shows that Multimodal Pathway brings consistent improvements among 4 modalities. 
+            In specific, with a base-scale transformer, our method achieves 83.9% (+0.6) top-1 accuracy on ImageNet-1K, 
+            82.3% (+0.8) on Kinectis-400, 47.6% (+2.7) mIoU on PartNet, 
+            and 35.6% (+0.3) on Audioset. 
+            Such results demonstrate that it effectively improves transformers with irrelevant data from other modalities.
+          </p>
+          <div style="text-align:center;">
+            <img width="750px" src="static/images/result.png" alt="MY ALT TEXT"/>
+          </div>
+          <p>  
+          Compared with existing methods, Multimodal Pathway brings out outstanding improvements on performance.
+          </p>
+          <img src="static/images/tab1.png" alt="MY ALT TEXT"/>
+          <p>
+
+          </p>
+          <img src="static/images/tab2.png" alt="MY ALT TEXT"/>
+        </div>
+        <div class="content has-text-justified is-light">
+          <img src="static/images/ablation.png" alt="MY ALT TEXT"/>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      If you find our work useful, please cite our paper. BibTex code is provided below:
+      <pre><code>@article{zhang2024multimodal,
+          title={Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities},
+          author={Zhang, Yiyuan and Ding, Xiaohan and Gong, Kaixiong and Ge, Yixiao and Shan, Ying and Yue, Xiangyu},
+          journal={arXiv preprint arXiv:2401.xxxxx},
+          year={2024}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
