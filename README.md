@@ -32,8 +32,12 @@
     <a href='https://ai.tencent.com/' target='_blank'>Tencent AI Lab</a>&emsp;
 </div>
 
-### This diagram's composition is inspired by a figure in Jeff Dean's blog post, where he envisions "pathways" as a high-level concept for general AI models. Our proposed Multimodal Pathway Transformer is a novel approach, and we are delighted to discover that some of its effects align with Jeff Dean's high-level vision, such as training a single model to `do many things, enabling multiple senses, and making models sparse and efficient`. Multimodal Pathway Transformer can be seen as an initial exploration of this "pathways" concept in the context of basic Transformer models and multimodal learning. Read more about Jeff Dean's concept in <a href="https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/" target="_blank">his blog post</a>.
 -----------------
+
+### Inspiation of Multimodal Pathway
+This diagram's composition is inspired by a figure in Jeff Dean's blog post, where he envisions "pathways" as a high-level concept for general AI models. Our proposed Multimodal Pathway Transformer is a novel approach, and we are delighted to discover that some of its effects align with Jeff Dean's high-level vision, such as training a single model to *do many things, enabling multiple senses, and making models sparse and efficient*. Multimodal Pathway Transformer can be seen as an initial exploration of this "pathways" concept in the context of basic Transformer models and multimodal learning. Read more about Jeff Dean's concept in <a href="https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/" target="_blank">his blog post</a>.
+
+### Abstract
 We propose to improve transformers of a specific modality with irrelevant data from other modalities, *e.g*, improve an ImageNet model with audio or point cloud datasets. We would like to highlight that the data samples of the target modality are irrelevant to the other modalities, which distinguishes our method from other works utilizing paired (*e.g.* CLIP) or interleaved data of different modalities. We propose a methodology named Multimodal Pathway - given a target modality and a transformer designed for it, we use an auxiliary transformer trained with data of another modality and construct pathways to connect components of the two models so that data of the target modality can be processed by both models. In this way, we utilize the universal sequence-to-sequence modeling abilities of transformers obtained from two modalities. As a concrete implementation, we use a modality-specific tokenizer and task-specific head as usual but utilize the transformer blocks of the auxiliary model via a proposed method named Cross-Modal Re-parameterization, which exploits the auxiliary weights without any inference costs. On the image, point cloud, video, and audio recognition tasks, we observe significant and consistent performance improvements with irrelevant data from other modalities.
 
 <p align="center" width="100%">
@@ -81,7 +85,7 @@ We propose to improve transformers of a specific modality with irrelevant data f
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       If you find our work useful, please kindly cite:
-      <pre><code>@article{zhang2023improve,
+      <pre><code>@article{zhang2023multimodal,
       title={Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities},
       author={Zhang, Yiyuan and Ding, Xiaohan and Gong, Kaixiong and Ge, Yixiao and Shan, Ying and Yue, Xiangyu},
       journal={arXiv preprint arXiv:2311.xxxxx},
