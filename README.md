@@ -88,8 +88,8 @@ We propose to improve transformers of a specific modality with irrelevant data f
       <pre><code>@article{zhang2023multimodal,
       title={Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities},
       author={Zhang, Yiyuan and Ding, Xiaohan and Gong, Kaixiong and Ge, Yixiao and Shan, Ying and Yue, Xiangyu},
-      journal={arXiv preprint arXiv:2311.xxxxx},
-      year={2023}
+      journal={arXiv preprint arXiv:2401.14405},
+      year={2024}
     }</code></pre>
     </div>
 </section>
