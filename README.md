@@ -34,6 +34,9 @@
 
 -----------------
 
+[![arXiv](https://img.shields.io/badge/arxiv-2401.14405-b31b1b?style=plastic&color=b31b1b&link=https%3A%2F%2Farxiv.org%2Fabs%2F2401.14405)](https://arxiv.org/abs/2401.14405)
+[![website](https://img.shields.io/badge/Project-Website-blue)](https://ailab-cvc.github.io/M2PT/)
+
 ### Inspiration of Multimodal Pathway
 This diagram's composition is inspired by a figure in Jeff Dean's blog post, where he envisions "pathways" as a high-level concept for general AI models. Our proposed Multimodal Pathway Transformer is a novel approach, and we are delighted to discover that some of its effects align with Jeff Dean's high-level vision, such as training a single model to *do many things, enabling multiple senses, and making models sparse and efficient*. Multimodal Pathway Transformer can be seen as an initial exploration of this "pathways" concept in the context of basic Transformer models and multimodal learning. Read more about Jeff Dean's concept in <a href="https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/" target="_blank">his blog post</a>.
 
@@ -85,7 +88,7 @@ We propose to improve transformers of a specific modality with irrelevant data f
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       If you find our work useful, please kindly cite:
-      <pre><code>@article{zhang2023multimodal,
+      <pre><code>@article{zhang2024multimodal,
       title={Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities},
       author={Zhang, Yiyuan and Ding, Xiaohan and Gong, Kaixiong and Ge, Yixiao and Shan, Ying and Yue, Xiangyu},
       journal={arXiv preprint arXiv:2401.14405},
