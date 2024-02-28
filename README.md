@@ -1,7 +1,7 @@
-<h1 class="title">Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities</h1>
+<h1 class="title">Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities [CVPR 2024]</h1>
 
 <p align="center" width="100%">
-<img src="assets/banner.png"  width="100%" height="100%">
+<img src="assets/banner.png"  width="80%" height="100%">
 </p>
 
 <div align="center">
@@ -12,7 +12,6 @@
     </span>
     <span class="author-block">
     <a href="https://kxgong.github.io/" target="_blank">Kaixiong Gong</a><sup>1</sup>,</span>
-    </br>
     <span class="author-block">
     </span>
     <a href="https://geyixiao.com/" target="_blank">Yixiao Ge</a><sup>2</sup>,
